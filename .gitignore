@@ -1,0 +1,4 @@
+
+*.png
+data/clean_labels.csv
+data/noisy_labels.csv
