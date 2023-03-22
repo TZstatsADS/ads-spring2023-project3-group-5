@@ -28,7 +28,7 @@ Yi Sun utilized the ResNet50 pre-model for model 1 and denoise the imbalance dat
 
 Yixun Xu...
 
-Haoyu Zhang...
+Haoyu Zhang utilized a basic CNN model with keras for model 1 and obtained an accuracy around 15%. Label cleaning is achieved by adding convolutions and mobileNet and the accuracy on the clean images and labels is around 50%. Combining the clean data and the new predicted labels after label-cleaning, model 2 was able to get an accuracy of around 37%.
 
 Thank you very much for everybody's effort and we have created a wonderful Image Classifier to classify images correctly.
 
