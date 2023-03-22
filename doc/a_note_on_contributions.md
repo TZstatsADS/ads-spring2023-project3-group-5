@@ -18,7 +18,7 @@ Summary: In this project, we conducted an analysis of weakly supervised learning
 
 [Contribution Statement] Yuxin Liang, Nixon Mckenzie, Safira Raharjo, Yi Sun, Yixun Xu, and Haoyu Zhang all contribute in finding the best model for Model 1 and Model 2. By comparing the proformance of both model 1 and model 2 of everybody, we chose Yixun Xu's VGG for highest accuracy above 70%!
 
-Yuxin Liang...
+Yuxin Liang tried a KNN model on model 1 and obtained an accuracy around 19%. After compare to the model of Yixun Xu, I decided to use Yixun Xu's neural network model 1 as the base of my model 2. I utilized a CNN model as my label-cleaning model and the accuracy reached about 55%. After that, I redid the exactly same model as model 1 and gained the accuracy around 49%.
 
 Nixon Mckenzie...
 
