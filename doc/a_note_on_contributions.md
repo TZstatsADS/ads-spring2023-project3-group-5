@@ -26,7 +26,7 @@ Safira Raharjo...
 
 Yi Sun utilized the ResNet50 pre-model for model 1 and denoise the imbalance dataset by training models use co-teaching technique. Co-teaching is a fancy way to deal with noisy labels and Yi Sun shared it during the meeting. But two bad teachers cannot solve problems either, the best outcome is around 31%.
 
-Yixun Xu...
+Yixun Xu utilized a single layer neural network for model 1 whcih obtained an accuracy around 23%. For model 2, used VGG 16 and neural networks to take noisy labels and images as input and clean labels as output. Label cleaning network has around 80% accuracy. Applied VGG 16 on the clean labels and correct noisy labels. Accuracy around 65%
 
 Haoyu Zhang utilized a basic CNN model with keras for model 1 and obtained an accuracy around 15%. Label cleaning is achieved by adding convolutions and mobileNet and the accuracy on the clean images and labels is around 50%. Combining the clean data and the new predicted labels after label-cleaning, model 2 was able to get an accuracy of around 37%.
 
