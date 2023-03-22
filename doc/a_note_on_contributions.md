@@ -17,11 +17,17 @@ Team members: Yuxin Liang, Nixon Mckenzie, Safira Raharjo, Yi Sun, Yixun Xu, Hao
 Summary: In this project, we conducted an analysis of weakly supervised learning on an imbalanced image dataset. For Model I, we used a more sophisticated model than the baseline and experimented with pre-trained neural network models such as VGG and ResNet. We achieved around 40% accuracy by treating the noisy labels as clean ones. For Model II, we decided to continue the usage of VGG in Model I and added a label correction method suggested by Inoue et al. (2017) to address the label noise issue. We achieved around 70% accuracy, a significant improvement over the baseline model.
 
 [Contribution Statement] Yuxin Liang, Nixon Mckenzie, Safira Raharjo, Yi Sun, Yixun Xu, and Haoyu Zhang all contribute in finding the best model for Model 1 and Model 2. By comparing the proformance of both model 1 and model 2 of everybody, we chose Yixun Xu's VGG for highest accuracy above 70%!
+
 Yuxin Liang...
+
 Nixon Mckenzie...
+
 Safira Raharjo...
-Yi Sun utilized the ResNet50 pre-model for model 1 and denoise the imbalance dataset by training models use co-teaching technique. Co-teaching is a fancy way to deal with noisy labels and Yi Sun shared it during the meeting. But two bad teachers cannot solve problems either, the best outcome is around 31%. 
+
+Yi Sun utilized the ResNet50 pre-model for model 1 and denoise the imbalance dataset by training models use co-teaching technique. Co-teaching is a fancy way to deal with noisy labels and Yi Sun shared it during the meeting. But two bad teachers cannot solve problems either, the best outcome is around 31%.
+
 Yixun Xu...
+
 Haoyu Zhang...
 
 Thank you very much for everybody's effort and we have created a wonderful Image Classifier to classify images correctly.
