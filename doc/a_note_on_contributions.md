@@ -14,7 +14,7 @@ Project 3: Weakly supervised learning: label noise and correction
 
 Team members: Yuxin Liang, Nixon Mckenzie, Safira Raharjo, Yi Sun, Yixun Xu, Haoyu Zhang
 
-Summary: In this project, we conducted an analysis of weakly supervised learning on an imbalanced image dataset. For Model I, we used a more sophisticated model than the baseline and experimented with pre-trained neural network models such as VGG and ResNet. We achieved around 40% accuracy by treating the noisy labels as clean ones. For Model II, we decided to continue the usage of VGG in Model I and added a label correction method suggested by Inoue et al. (2017) to address the label noise issue. We achieved around 70% accuracy, a significant improvement over the baseline model.
+Summary: In this project, we conducted an analysis of weakly supervised learning on an imbalanced image dataset. For Model I, we used a pre-trained VGG model. We achieved around 35% validation accuracy by treating the noisy labels as clean ones. For Model II, 2 pre-trained VGG models were used, one for label correction as suggested by Inoue et al. (2017) to address the label noise issue, and corrected labels were used to train a final VGG model. We achieved around 70% validation accuracy, a significant improvement over the baseline model.
 
 [Contribution Statement] Yuxin Liang, Nixon Mckenzie, Safira Raharjo, Yi Sun, Yixun Xu, and Haoyu Zhang all contribute in finding the best model for Model 1 and Model 2. By comparing the proformance of both model 1 and model 2 of everybody, we chose Yixun Xu's VGG for highest accuracy above 70%!
 
