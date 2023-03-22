@@ -2,3 +2,6 @@
 *.png
 data/clean_labels.csv
 data/noisy_labels.csv
+output/final_vgg.h5
+output/final_vgg.h5
+output/label_clearing_model.h5
