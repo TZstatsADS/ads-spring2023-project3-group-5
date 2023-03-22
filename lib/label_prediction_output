@@ -1,0 +1,20 @@
+import csv
+
+# Define the column names and values
+column_names = ["Index", "Baseline", "Model I", "Model II"]
+
+rows = []
+    
+for i in range(10000):
+    img_test = f'images/test{i+1:05d}.png'
+    rows.append([i,baseline_model(imgs[i])[0], model_1(imgs[i])[0], model_2(imgs[i])[0]])
+    i+=1
+    
+with open('label_prediction.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+
+    # Write the header row with the column names
+    writer.writerow(column_names)
+    
+    for row in rows:
+        writer.writerow(row)
