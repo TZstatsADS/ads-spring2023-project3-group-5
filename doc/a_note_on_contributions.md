@@ -22,7 +22,7 @@ Yuxin Liang tried a KNN model on model 1 and obtained an accuracy around 19%. Af
 
 Nixon Mckenzie...
 
-Safira Raharjo...
+Safira Raharjo used a CNN model with cross-fold validation, which gave a 29% accuracy rate for model 1. When utilized for label cleaning however, the accuracy was reduced.
 
 Yi Sun utilized the ResNet50 pre-model for model 1 and denoise the imbalance dataset by training models use co-teaching technique. Co-teaching is a fancy way to deal with noisy labels and Yi Sun shared it during the meeting. But two bad teachers cannot solve problems either, the best outcome is around 31%.
 
