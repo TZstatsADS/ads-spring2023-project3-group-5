@@ -20,7 +20,7 @@ Summary: In this project, we conducted an analysis of weakly supervised learning
 
 Yuxin Liang tried a KNN model on model 1 and obtained an accuracy around 19%. After compare to the model of Yixun Xu, I decided to use Yixun Xu's neural network model 1 as the base of my model 2. I utilized a CNN model as my label-cleaning model and the accuracy reached about 55%. After that, I redid the exactly same model as model 1 and gained the accuracy around 49%.
 
-Nixon Mckenzie tried to utilize a pre trained model for model 1, and attempted a "pseudo- labeling" technique for model 2, which leveraged our groups designated model 1 to develop new labels for our initial model to be trained on, in order to increase it's accuracy. 
+Nixon Mckenzie tried to utilize a pre model for model 1, and attempted a "pseudo- labeling" technique for model 2, which leveraged our groups designated model 1 to develop new labels for our initial model to be trained on, in order to increase it's accuracy. 
 
 Safira Raharjo used a CNN model with cross-fold validation, which gave a 29% accuracy rate for model 1. When utilized for label cleaning however, the accuracy was reduced.
 
